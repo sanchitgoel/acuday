@@ -46,12 +46,65 @@
     <!-- Sparkline Chart Plugin Js -->
     <script src="plugins/jquery-sparkline/jquery.sparkline.js"></script>
 
+        <!-- Multi Select Plugin Js -->
+        <script src="plugins/multi-select/js/jquery.multi-select.js"></script>
+
+        <!-- noUISlider Plugin Js -->
+        <script src="plugins/nouislider/nouislider.js"></script>
+
+            <!-- Moment Plugin Js -->
+            <script src="plugins/momentjs/moment.js"></script>
+
+            <!-- Bootstrap Material Datetime Picker Plugin Js -->
+            <script src="plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+
     <!-- Custom Js -->
     <script src="js/admin.js"></script>
     <script src="js/pages/index.js"></script>
 
     <!-- Demo Js -->
     <script src="js/demo.js"></script>
+
+    <script>
+    //Get noUISlider Value and write on
+    function getNoUISliderValue(slider, percentage) {
+        slider.noUiSlider.on('update', function () {
+            var val = slider.noUiSlider.get();
+            if (percentage) {
+                val = parseInt(val);
+                val += '%';
+            }
+            $(slider).parent().find('span.js-nouislider-value').text(val);
+        });
+    }
+
+
+
+    $('#optgroup').multiSelect({ selectableOptgroup: true });
+
+    //noUISlider
+    var sliderBasic = document.getElementById('nouislider_basic_example');
+    noUiSlider.create(sliderBasic, {
+        start: [30],
+        connect: 'lower',
+        step: 1,
+        range: {
+            'min': [0],
+            'max': [100]
+        }
+    });
+    getNoUISliderValue(sliderBasic, true);
+
+
+    //Datetimepicker plugin
+    $('.datetimepicker').bootstrapMaterialDatePicker({
+        format: 'dddd DD MMMM YYYY - HH:mm',
+        clearButton: true,
+        weekStart: 1
+    });
+
+
+    </script>
 </body>
 
 </html>

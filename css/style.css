@@ -2808,7 +2808,7 @@ section.content {
     box-shadow: none !important; }
   .ms-container .ms-selectable,
   .ms-container .ms-selection {
-    min-width: 250px !important; }
+     }
     .ms-container .ms-selectable li.ms-hover,
     .ms-container .ms-selection li.ms-hover {
       color: #000000 !important;
@@ -8039,4 +8039,3 @@ html.ie11 .dropdown-menu ul.menu li a {
 
 html.ie11 .bs-searchbox .form-control {
   width: 90%; }
-
