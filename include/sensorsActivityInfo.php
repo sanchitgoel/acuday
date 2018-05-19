@@ -2,7 +2,7 @@
 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
     <div class="card">
         <div class="header">
-            <h2>BROWSER USAGE</h2>
+            <h2>Stress Relieved</h2>
             <ul class="header-dropdown m-r--5">
                 <li class="dropdown">
                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
