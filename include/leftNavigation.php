@@ -35,38 +35,38 @@
                     </a>
                 </li>
                 <li>
-                    <a href="pages/typography.html">
+                    <a href="addActivity.php">
                         <i class="material-icons">alarm_add</i>
                         <span>Add Activity</span>
                     </a>
                 </li>
                 <li>
-                    <a href="pages/helper-classes.html">
+                    <a href="addSensor.php">
                         <i class="material-icons">accessibility</i>
                         <span>Add Sensor</span>
                     </a>
                 </li>
                 <li>
-                    <a href="pages/helper-classes.html">
+                    <a href="howItWorks.php">
                         <i class="material-icons">help_outline</i>
                         <span>How it works</span>
                     </a>
                 </li>
                 <li>
-                    <a href="pages/helper-classes.html">
+                    <a href="reliefPoints.php">
                         <i class="material-icons">opacity</i>
                         <span>Pain Relief Points</span>
                     </a>
                 </li>
                 <li>
-                    <a href="pages/helper-classes.html">
+                    <a href="loggedIn.php">
                         <i class="material-icons">category</i>
                         <span>Stats/Reports</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="javascript:void(0);">
+                    <a href="problems.php">
                         <i class="material-icons col-red">donut_large</i>
                         <span>Problems & Solutions</span>
                     </a>
