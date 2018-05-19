@@ -6,6 +6,7 @@
 
         <div class="row clearfix">
             <?php include('sensorsActivityInfo.php') ?>
+            <?php include('taskInfo.php') ?>
         </div>
         <!-- Widgets -->
         <div class="row clearfix">
@@ -67,11 +68,6 @@
           <?php include('visitorsInfo.php') ?>
           <?php include('socialTrends.php') ?>
           <?php include('answeredTickets.php') ?>
-        </div>
-
-        <div class="row clearfix">
-            <?php include('taskInfo.php') ?>
-            <?php include('browserInfo.php') ?>
         </div>
     </div>
 </section>
