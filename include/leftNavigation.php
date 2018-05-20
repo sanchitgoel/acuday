@@ -30,37 +30,37 @@
                 <li class="header">MAIN NAVIGATION</li>
                 <li class="active">
                     <a href="loggedIn.php">
-                        <i class="material-icons">home</i>
+                        <i class="material-icons col-red">home</i>
                         <span>Home</span>
                     </a>
                 </li>
                 <li>
                     <a href="addActivity.php">
-                        <i class="material-icons">alarm_add</i>
+                        <i class="material-icons col-red">alarm_add</i>
                         <span>Add Activity</span>
                     </a>
                 </li>
                 <li>
                     <a href="addSensor.php">
-                        <i class="material-icons">accessibility</i>
+                        <i class="material-icons col-red">accessibility</i>
                         <span>Manage Sensors</span>
                     </a>
                 </li>
                 <li>
                     <a href="howItWorks.php">
-                        <i class="material-icons">help_outline</i>
+                        <i class="material-icons col-red">help_outline</i>
                         <span>How it works</span>
                     </a>
                 </li>
                 <!-- <li>
                     <a href="reliefPoints.php">
-                        <i class="material-icons">opacity</i>
+                        <i class="material-icons col-red">opacity</i>
                         <span>Pain Relief Points</span>
                     </a>
                 </li> -->
                 <li>
                     <a href="loggedIn.php">
-                        <i class="material-icons">category</i>
+                        <i class="material-icons  col-red">category</i>
                         <span>Stats/Reports</span>
                     </a>
                 </li>
