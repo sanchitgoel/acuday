@@ -12,11 +12,22 @@
       </div>
       <div class="clearfix body">
         <div class="col-xs-12">
-          <div class="row clearfix">
-              <div class="form-group">
-                  
-              </div>
-          </div>
+          <canvas id="radar_chart" height="250"></canvas>
+        </div>
+
+        <div class="col-xs-12">
+          <h3>New Sensors:</h3>
+          <ul class="dashboard-stat-list">
+              <li class="clearfix">
+                  Sensor 7
+                   <button type="button" data-type="prompt" class="btn bg-red waves-effect pull-right"><i class="material-icons">add_circle</i></button>
+              </li>
+              <li class="clearfix">
+                  Sensor 8
+                   <button type="button" data-type="prompt" class="btn bg-red waves-effect pull-right"><i class="material-icons">add_circle</i></button>
+              </li>
+
+          </ul>
         </div>
 
       </div>
@@ -27,7 +38,7 @@
     <div class="card">
         <div class="body bg-blue-grey">
             <div class="font-bold m-b--35">REMOVE SENSOR</div>
-            <ul class="dashboard-stat-list js-sweetalert">
+            <ul class="dashboard-stat-list js-sweetalert removeList">
                 <li class="clearfix">
                     Sensor A
                      <button type="button" data-type="confirm" class="btn bg-grey waves-effect pull-right"><i class="material-icons">remove_circle</i></button>
