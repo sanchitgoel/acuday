@@ -52,12 +52,12 @@
                         <span>How it works</span>
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="reliefPoints.php">
                         <i class="material-icons">opacity</i>
                         <span>Pain Relief Points</span>
                     </a>
-                </li>
+                </li> -->
                 <li>
                     <a href="loggedIn.php">
                         <i class="material-icons">category</i>
