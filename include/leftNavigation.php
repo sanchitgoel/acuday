@@ -43,7 +43,7 @@
                 <li>
                     <a href="addSensor.php">
                         <i class="material-icons">accessibility</i>
-                        <span>Add Sensor</span>
+                        <span>Manage Sensors</span>
                     </a>
                 </li>
                 <li>

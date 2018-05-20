@@ -43,15 +43,36 @@
     <script src="plugins/flot-charts/jquery.flot.categories.js"></script>
     <script src="plugins/flot-charts/jquery.flot.time.js"></script>
 
+    <!-- SweetAlert Plugin Js -->
+    <script src="plugins/sweetalert/sweetalert.min.js"></script>
+
+
     <!-- Sparkline Chart Plugin Js -->
     <script src="plugins/jquery-sparkline/jquery.sparkline.js"></script>
 
     <!-- Custom Js -->
     <script src="js/admin.js"></script>
     <script src="js/pages/index.js"></script>
-
     <!-- Demo Js -->
     <script src="js/demo.js"></script>
+    <script>
+    $('button[data-type="confirm"]').on('click', function () {
+      let _this = $(this);
+      swal({
+          title: "Are you sure?",
+          text: "Not to worry, you can add the same sensor later anytime!",
+          type: "warning",
+          showCancelButton: true,
+          confirmButtonColor: "#DD6B55",
+          confirmButtonText: "Yes, delete it!",
+          closeOnConfirm: false
+      }, function () {
+          swal("Deleted!", "Your Sensor has been deleted.", "success");
+          _this.parents('li').detach();
+      });
+
+    });
+    </script>
 </body>
 
 </html>
