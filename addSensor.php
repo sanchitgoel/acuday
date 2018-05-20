@@ -73,29 +73,36 @@
               swal.showInputError("Code Required!"); return false
           }
           swal("Hurrah!", "Successfully paired sensor with code: " + inputValue, "success");
-          _this.data('type','confirm');
+          _this.attr('data-type','confirm');
           _this.removeClass('bg-red').addClass('bg-grey').html('<i class="material-icons">remove_circle</i>');
           _this.parents('li').prependTo('.removeList');
+          _this.off('click');
+          addEvent();
       });
 
     });
 
-    $('button[data-type="confirm"]').on('click', function () {
-      let _this = $(this);
-      swal({
-          title: "Are you sure?",
-          text: "Not to worry, you can add the same sensor later anytime!",
-          type: "warning",
-          showCancelButton: true,
-          confirmButtonColor: "#DD6B55",
-          confirmButtonText: "Yes, delete it!",
-          closeOnConfirm: false
-      }, function () {
-          swal("Deleted!", "Your Sensor has been deleted.", "success");
-          _this.parents('li').detach();
-      });
-
+function addEvent(){
+  $('button[data-type="confirm"]').off('click');
+  $('button[data-type="confirm"]').on('click', function () {
+    let _this = $(this);
+    swal({
+        title: "Are you sure?",
+        text: "Not to worry, you can add the same sensor later anytime!",
+        type: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#DD6B55",
+        confirmButtonText: "Yes, delete it!",
+        closeOnConfirm: false
+    }, function () {
+        swal("Deleted!", "Your Sensor has been deleted.", "success");
+        _this.parents('li').detach();
     });
+
+  });
+}
+addEvent();
+
 
 
     new Chart(document.getElementById("radar_chart").getContext("2d"), {
@@ -103,7 +110,7 @@
           data: {
               labels: ["N", "E-N", "E", "S-E", "S", "S-W", "W", "N-W"],
               datasets: [{
-                  label: "Sensors Availale",
+                  label: "Strips Availale",
                   data: [2, 1, 0, 3, 2, 1, 1, 0],
                   //borderColor: 'rgba(0, 188, 212, 0.8)',
                   borderColor: 'rgba(0, 0, 0, 0)',

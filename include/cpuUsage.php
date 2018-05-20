@@ -4,7 +4,7 @@
             <div class="header">
                 <div class="row clearfix">
                     <div class="col-xs-12 col-sm-6">
-                        <h2>Sensors signal's strength</h2>
+                        <h2>Strips connectivity Signals</h2>
                     </div>
                     <div class="col-xs-12 col-sm-6 align-right">
                         <div class="switch panel-switch-btn">

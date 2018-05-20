@@ -29,7 +29,7 @@
                         <i class="material-icons">equalizer</i>
                     </div>
                     <div class="content">
-                        <div class="text">Activate Sensors</div>
+                        <div class="text">Activate Strips</div>
                         <div class="number count-to" data-from="0" data-to="5" data-speed="1000" data-fresh-interval="20"></div>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
     <div class="card">
         <div class="header">
-            <h2>TASK INFOS</h2>
+            <h2>Activity Status</h2>
             <ul class="header-dropdown m-r--5">
                 <li class="dropdown">
                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -21,17 +21,18 @@
                 <table class="table table-hover dashboard-task-infos">
                     <thead>
                         <tr>
-                            <th>#</th>
-                            <th>Sensor</th>
+                            <th>Event</th>
+                            <th>Strips</th>
                             <th>Status</th>
                             <th>Area</th>
                             <th>Strength</th>
+                            <th>Activation</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>Sensor A</td>
+                            <td>Strip A</td>
                             <td><span class="label bg-green">Doing</span></td>
                             <td>Legs</td>
                             <td>
@@ -39,10 +40,15 @@
                                     <div class="progress-bar bg-green" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 62%"></div>
                                 </div>
                             </td>
+                            <td>
+                              <div class="switch">
+                                  <label><input type="checkbox" checked=""><span class="lever switch-col-lime"></span></label>
+                              </div>
+                            </td>
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>Sensor B</td>
+                            <td>Strip B</td>
                             <td><span class="label bg-blue">To Do</span></td>
                             <td>Arms</td>
                             <td>
@@ -50,10 +56,15 @@
                                     <div class="progress-bar bg-blue" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
                                 </div>
                             </td>
+                            <td>
+                              <div class="switch">
+                                  <label><input type="checkbox" ><span class="lever switch-col-lime"></span></label>
+                              </div>
+                            </td>
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td>Sensor C</td>
+                            <td>Strip C</td>
                             <td><span class="label bg-light-blue">On Hold</span></td>
                             <td>Eyes</td>
                             <td>
@@ -61,10 +72,15 @@
                                     <div class="progress-bar bg-light-blue" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" style="width: 72%"></div>
                                 </div>
                             </td>
+                            <td>
+                              <div class="switch">
+                                  <label><input type="checkbox" ><span class="lever switch-col-lime"></span></label>
+                              </div>
+                            </td>
                         </tr>
                         <tr>
                             <td>4</td>
-                            <td>Sensor D</td>
+                            <td>Strip D</td>
                             <td><span class="label bg-green">Doing</span></td>
                             <td>Stomach</td>
                             <td>
@@ -72,10 +88,15 @@
                                     <div class="progress-bar bg-orange" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
                                 </div>
                             </td>
+                            <td>
+                              <div class="switch">
+                                  <label><input type="checkbox" checked><span class="lever switch-col-lime"></span></label>
+                              </div>
+                            </td>
                         </tr>
                         <tr>
                             <td>5</td>
-                            <td>Sensor E</td>
+                            <td>Strip E</td>
                             <td>
                                 <span class="label bg-red">Suspended</span>
                             </td>
@@ -84,6 +105,11 @@
                                 <div class="progress">
                                     <div class="progress-bar bg-red" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%"></div>
                                 </div>
+                            </td>
+                            <td>
+                              <div class="switch">
+                                  <label><input type="checkbox" ><span class="lever switch-col-lime"></span></label>
+                              </div>
                             </td>
                         </tr>
                     </tbody>

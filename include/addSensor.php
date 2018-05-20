@@ -1,14 +1,14 @@
-<section class="content">
+StripSTRIP<section class="content">
   <div class="block-header">
-      <h2>Manage Sensors</h2>
+      <h2>Manage Strips</h2>
   </div>
 
   <div class="container-fluid row">
 
-    <!-- Add new sensor -->
+    <!-- Add new strip -->
     <div class="card">
       <div class="header">
-        <h2>Add New Sensor</h2>
+        <h2>Available Strips in range</h2>
       </div>
       <div class="clearfix body">
         <div class="col-xs-12">
@@ -16,14 +16,14 @@
         </div>
 
         <div class="col-xs-12">
-          <h3>New Sensors:</h3>
+          <h3>Connect to Available Strip:</h3>
           <ul class="dashboard-stat-list">
               <li class="clearfix">
-                  Sensor 7
+                  Strip 7
                    <button type="button" data-type="prompt" class="btn bg-red waves-effect pull-right"><i class="material-icons">add_circle</i></button>
               </li>
               <li class="clearfix">
-                  Sensor 8
+                  Strip 8
                    <button type="button" data-type="prompt" class="btn bg-red waves-effect pull-right"><i class="material-icons">add_circle</i></button>
               </li>
 
@@ -32,27 +32,27 @@
 
       </div>
     </div>
-    <!-- Add new sensor -->
+    <!-- Add new strip -->
 
-    <!-- Remove new sensor -->
+    <!-- Remove new strip -->
     <div class="card">
         <div class="body bg-blue-grey">
-            <div class="font-bold m-b--35">REMOVE SENSOR</div>
+            <div class="font-bold m-b--35">REMOVE STRIP</div>
             <ul class="dashboard-stat-list js-sweetalert removeList">
                 <li class="clearfix">
-                    Sensor A
+                    Strip A
                      <button type="button" data-type="confirm" class="btn bg-grey waves-effect pull-right"><i class="material-icons">remove_circle</i></button>
                 </li>
                 <li class="clearfix">
-                    Sensor B
+                    Strip B
                      <button type="button" data-type="confirm" class="btn bg-grey waves-effect pull-right"><i class="material-icons">remove_circle</i></button>
                 </li>
                 <li class="clearfix">
-                    Sensor C
+                    Strip C
                     <button type="button" data-type="confirm" class="btn bg-grey waves-effect pull-right"><i class="material-icons">remove_circle</i></button>
                 </li>
                 <li class="clearfix">
-                    Sensor C
+                    Strip C
                     <button type="button" data-type="confirm" class="btn bg-grey waves-effect pull-right"><i class="material-icons">remove_circle</i></button></span>
                 </li>
                 <li class="clearfix">
@@ -66,7 +66,7 @@
             </ul>
         </div>
     </div>
-    <!-- ./Remove new sensor -->
+    <!-- ./Remove new strip -->
 
 
   </div>

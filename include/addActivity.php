@@ -65,16 +65,16 @@
 
       <div class="card">
         <div class="header">
-          <h2>Select Sensors</h2>
+          <h2>Select Strips</h2>
         </div>
         <div class="clearfix body">
           <div class="col-xs-12">
             <select id="optgroup" class="ms" multiple="multiple">
-                    <option value="AK">Sensor A</option>
-                    <option value="AK2">Sensor B</option>
-                    <option value="AK3">Sensor C</option>
-                    <option value="AK4">Sensor D</option>
-                    <option value="AK5">Sensor E</option>
+                    <option value="AK">Strip A</option>
+                    <option value="AK2">Strip B</option>
+                    <option value="AK3">Strip C</option>
+                    <option value="AK4">Strip D</option>
+                    <option value="AK5">Strip E</option>
 
             </select>
           </div>

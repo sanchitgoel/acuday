@@ -14,11 +14,11 @@
                     <ul class="dropdown-menu pull-right">
                         <li><a href="javascript:void(0);"><i class="material-icons">person</i>Profile</a></li>
                         <li role="seperator" class="divider"></li>
-                        <li><a href="javascript:void(0);"><i class="material-icons">group</i>Followers</a></li>
-                        <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Sales</a></li>
-                        <li><a href="javascript:void(0);"><i class="material-icons">favorite</i>Likes</a></li>
+                        <li><a href="javascript:void(0);"><i class="material-icons">lock</i>Reset Password</a></li>
+                        <li><a href="javascript:void(0);"><i class="material-icons">settings</i>Settings</a></li>
+                        <li><a href="javascript:void(0);"><i class="material-icons">favorite</i>Share Reports</a></li>
                         <li role="seperator" class="divider"></li>
-                        <li><a href="javascript:void(0);"><i class="material-icons">input</i>Sign Out</a></li>
+                        <li><a href="index.html"><i class="material-icons">input</i>Sign Out</a></li>
                     </ul>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                 <li>
                     <a href="addSensor.php">
                         <i class="material-icons col-red">accessibility</i>
-                        <span>Manage Sensors</span>
+                        <span>Manage Strips</span>
                     </a>
                 </li>
                 <li>
